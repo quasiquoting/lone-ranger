@@ -5,8 +5,10 @@
   {vsn,          "0.0.1"},
   {registered,   []},
   {applications, [kernel, stdlib]},
-  {env,          []},
-  {modules,      []},
+  {env,
+   [{'source-uri',
+     "https://github.com/quasiquoting/lone-ranger/blob/master/{filepath}#L{line}"}]},
+  {modules,      ['lone-ranger']},
 
   {contributors, ["Eric Bailey"]},
   {licenses,     ["MIT"]},

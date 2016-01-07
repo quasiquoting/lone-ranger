@@ -13,3 +13,7 @@ debug-*
 .rebar
 *.d
 ebin
+.DS_Store
+_*
+erl_crash.dump
+rebar.lock
